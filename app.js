@@ -10,7 +10,7 @@ $(() => {
       
       for (let i=0; i<$marketCapNumber; i++) {
         
-        // let img = Data[0].RAW.USD.IMAGEURL;
+        let number = i+1;
         //name
         let name = data.Data[i].CoinInfo.FullName;
         // symbol e.g btc, xrp, ltc
@@ -27,6 +27,8 @@ $(() => {
         ////
         const tableCell = $('<td>')
         tableCell.addClass('rank data')
+        const $rankOfCoin = $('<p>').text(`${number}`)
+        tableCell.append($rankOfCoin)
         
         
         //////

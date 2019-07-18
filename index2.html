@@ -4,21 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Bens Crypto</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
+    <header class="main__header">
+      <div id="banner">
+        <a href="#" class="main__header__logo">
+          bensWeb
+        </a>
+      </div>
+      <nav class="top-nav">
+        <ul class="top-nav__items">
+          <li class="top-nav__item">
+            <a href="https://youtu.be/HLYuxoytR3s">What is crypto?</a>
+          </li>
+          <li class="top-nav__item">
+            <a href="https://www.cryptocompare.com/">CryptoCompare</a>
+          </li>
+          <li class="top-nav__item">
+            <a href="#">resources</a>
+          </li>
+          <li class="top-nav__item top-nav__item--cta">
+            <a href="/contact/index.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="dataOfCoins">
+        
+        
+        <video controls autoplay muted loop>
+            <source src="/180405_FinancialCharts_17 (1).mp4" type="video/mp4" />
+        </video>
+    </div>
+    <h1>Top 100 Coiins</h1>
     <div>
       <table class="a">
-          <thead>
-        <tr>
-          <th>#</th>
-          <th>name</th>
-          <th>sym</th>
-          <th>Marketcap</th>
-          <th>price</th>
-        </tr>
-    </thead>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>name</th>
+            <th>sym</th>
+            <th>Marketcap</th>
+            <th>price</th>
+          </tr>
+        </thead>
         <tr class="tableRowData">
           <td class="rank data"></td>
           <td class="name data"></td>
@@ -26,7 +57,6 @@
           <td class="marketCap data"></td>
           <td class="price data"></td>
         </tr>
-       
       </table>
     </div>
 
@@ -35,7 +65,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    
+
     <script src="app.js"></script>
   </body>
 </html>

@@ -1,5 +1,87 @@
 html {
     background-color: rgba(216, 212, 212, 0.856);
+    margin: 0;
+
+}
+
+.main__header{
+    width: 100%;
+    background: #817f7df5;
+    padding: 8x 16px;
+    position: fixed;
+    top: 0;
+}
+
+
+.main__header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main__header__logo {
+    color: rgb(94, 88, 88);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#banner {
+    width: 100%;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+    background-size: auto;
+}
+
+.top-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 100px);
+    vertical-align: middle;
+
+}
+
+.top-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.top-nav__item {
+    display: inline-block;
+    margin: 0 16px;    
+}
+
+.top-nav__item > a {
+    text-decoration: none;
+    color: #3d3a36e3;
+}
+
+.top-nav__item a:hover,
+.top-nav__item a:active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.top-nav__item--cta a {
+    color: white;
+    background: #482c07;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.top-nav__item--cta a:hover,
+.top-nav__item--cta a:active {
+    background: white;
+    color: #482c07;
+}
+
+.dataOfCoins {
+    padding-top: 37px;
 }
 
 table {
