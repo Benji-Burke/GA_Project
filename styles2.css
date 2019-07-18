@@ -9,7 +9,12 @@ table {
 
 }
 
-th, td {
+th {
     border: 1px solid black;
     text-align: center;
+}
+ .data {
+    border: 1px solid blue;
+    text-align: center;
+
 }
